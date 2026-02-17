@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: grey;
+}
+
+.title {
+    background-color: red;
+    margin: 10px;
+    padding: 10px ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-shrink: 10px;
+    flex-grow: 1;
+}
+
+title > nav > a {
+    justify-content: flex-end;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
